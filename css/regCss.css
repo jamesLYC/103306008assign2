@@ -1,0 +1,44 @@
+body{
+	background: -webkit-linear-gradient(left,#ffe2fe,#e0ffdd);
+	background: -o-linear-gradient(right,#ffe2fe,#e0ffdd);
+	background: -moz-linear-gradient(right,#ffe2fe,#e0ffdd);
+	background: linear-gradient(to right,#ffe2fe,#e0ffdd);
+}
+#container{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin: -186px 0px 0px -136px;
+}
+#container>header{
+	text-align: center;
+}
+#container>form>div{
+	margin:20px;
+}
+#container>form>div>input{
+	padding: 6px 31px;
+	border:none;
+}
+#container>form>div>input:valid{
+	background-color: #39b387;
+}
+#container>form>div>select{
+	padding: 6px 62px;
+	border:none;
+}
+#container>form>div>select:valid{
+	background-color: #39b387;
+}
+#container>form>div:nth-child(5)>input{
+	padding: 3px 43px;
+}
+#container>form>div>button{
+	background-color: #32906e;
+    border: none;
+    color: white;
+    padding: 7px 100px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

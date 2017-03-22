@@ -1,0 +1,125 @@
+body{
+	font-family: PMingLiU;
+}
+nav{
+	color: #4545FF;
+	margin-left: 5%;
+}
+#image{
+	margin-left: 5%;
+	width: 43%;
+	border-style: solid;
+	border-width: 4px 0px 1px;
+	border-color: #00C400;
+}
+#image>img{
+	width: 100%;
+}
+#place{
+	margin-left: 5%;
+	width: 43%;
+	text-align: center;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	border-bottom-color: gray;
+}
+#overview{
+	float: right;
+	margin-top: -3em;
+}
+article{
+	margin-left: 5%;
+	width: 43%;
+	line-height: 20px;
+	float: left;
+}
+article>p{
+	padding-top: 10px;
+}
+article>p>a{
+	text-decoration: none;
+}
+article>p>a:link{
+	color: green;
+}
+article>p>a:visited{
+	color: purple;
+}
+article>p>a:hover{
+	color: red;
+}
+article>blockquote{
+	font-size: 0.9em;
+}
+section{
+	width: 43%;
+	display: inline-block;
+	background-color:  #ededed;
+	border-style:solid;
+	border-width: 4px;
+	border-color: white;
+}
+section>img{
+	width:100%;
+}
+section>img:hover{
+	opacity: 0.5;
+}
+section>div>img{
+	width: 20%;
+	float: left;
+}
+section>div>a{
+	text-decoration: none;
+}
+section>div>a:link{
+	color: green;
+}
+section>div>a:visited{
+	color: purple;
+}
+section>div>a:hover{
+	color: red;
+}
+#filmsinformation{
+	display: inline-block;
+}
+#date{
+	font-size: 2em;
+	color: #4b92aa;
+}
+#allfilms{
+	margin-left: 52%;
+	margin-top: -16%;
+}
+#warning{
+	display: inline-block;
+	background-color:  #ededed;
+}
+#warningchinese{
+	float: left;
+	width: 45%;
+}
+#warningenglish{
+	width: 45%;
+	display: inline-block;
+}
+#footerleft{
+	float: left;
+}
+#footerright{
+	float: right;
+	margin-top: 50px;
+}
+#footerright>div>a{
+	text-decoration: none;
+}
+#footerright>div>a:link{
+	color: green;
+}
+#footerright>div>a:visited{
+	color: purple;
+}
+#footerright>div>a:hover{
+	color: red;
+}
